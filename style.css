@@ -1,73 +1,58 @@
-body{
+body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
-h1{
+h1 {
     font-size: 50px;
 }
-h2{
+h2 {
     font-size: 40px;
 }
-h3{
+h3 {
     font-size: 20px;
 }
-.orange-highlight{
-    color: orange;
+.text-warning {
+    color: orange !important;
 }
-.half-width{
-    width: 40%;
-    float:left;
-    margin-left:5%;
-    padding-left: 2%;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
-.half-width img{
-    width: 100%;
+.container {
+    padding: 50px 0;
 }
-.top-banner{
-    background-image: url("image/img2.png");
-    background-repeat: no-repeat;
-}
-section{
-    height: 500px;
-    padding-bottom: 200px;
-}
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg,lightSalmon,Tomato);
+.btn {
     padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
     font-weight: 700;
-}
-.dream-area{
-    background-image: url(image/img4.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.single-experience{
-    box-shadow: 10px 10px 40px gray ;
     border-radius: 5px;
-    height: 80%;
+}
+.btn-primary {
+    background: linear-gradient(45deg, lightSalmon, Tomato);
+    border: none;
+}
+.btn-danger {
+    background: linear-gradient(45deg, blue, rgb(185, 3, 33));
+    border: none;
+}
+.border {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
     background-color: white;
 }
-.experience-area{
-    background-image: url(image/img5.png);
-    background-repeat: no-repeat;
-    background-position: left;
+.bg-dark {
+    background-color: #343a40 !important;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg,rgb(45, 13, 1),rgb(255, 247, 2));
-    border-image-slice: 1;
+.text-white {
+    color: white !important;
 }
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg,blue,rgb(185, 3, 33));
-    border-image-slice: 1;
+.text-center {
+    text-align: center !important;
 }
-footer p{
-    text-align: center;
-    font-size: 12px;
-    color: gray;
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
-
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
