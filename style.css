@@ -2,56 +2,83 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 h1 {
     font-size: 50px;
 }
+
 h2 {
     font-size: 40px;
 }
+
 h3 {
     font-size: 20px;
 }
-.text-warning {
-    color: orange !important;
+
+.orange-highlight {
+    color: orange;
 }
+
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
+
 .container {
     padding: 50px 0;
 }
+
 .btn {
     padding: 10px 20px;
     font-weight: 700;
     border-radius: 5px;
 }
+
 .btn-primary {
     background: linear-gradient(45deg, lightSalmon, Tomato);
     border: none;
 }
+
 .btn-danger {
     background: linear-gradient(45deg, blue, rgb(185, 3, 33));
     border: none;
 }
-.border {
+
+.border-box {
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     background-color: white;
+    padding: 20px;
+    border-left: 7px solid;
 }
+
+#full-stack {
+    border-image: linear-gradient(180deg, rgb(45, 13, 1), rgb(255, 247, 2));
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-image: linear-gradient(180deg, blue, rgb(185, 3, 33));
+    border-image-slice: 1;
+}
+
 .bg-dark {
     background-color: #343a40 !important;
 }
+
 .text-white {
     color: white !important;
 }
+
 .text-center {
     text-align: center !important;
 }
+
 .py-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
 }
+
 .py-3 {
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
